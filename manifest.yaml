@@ -1739,6 +1739,8 @@
   repo: telescope-alternate.nvim
 - owner: otavioschwanck
   repo: tmux-awesome-manager.nvim
+- owner: ovk
+  repo: endec.nvim
 - owner: oxfist
   repo: night-owl.nvim
 - owner: OXY2DEV

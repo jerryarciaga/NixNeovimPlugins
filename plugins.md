@@ -1,4 +1,4 @@
- - Plugin count: 1259
+ - Plugin count: 1260
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -273,6 +273,7 @@
 | [github/gpanders/editorconfig.nvim/editorconfig-nvim](https://github.com/gpanders/editorconfig.nvim) | 2025-03-12 | `editorconfig-nvim` | 
 | [github/creativenull/efmls-configs-nvim/efmls-configs-nvim](https://github.com/creativenull/efmls-configs-nvim) | 2025-02-16 | `efmls-configs-nvim` | 
 | [github/mattn/emmet-vim/emmet-vim](https://github.com/mattn/emmet-vim) | 2024-08-10 | `emmet-vim` | 
+| [github/ovk/endec.nvim/endec-nvim](https://github.com/ovk/endec.nvim) | 2025-03-02 | `endec-nvim` | 
 | [github/nvimdev/epo.nvim/epo-nvim](https://github.com/nvimdev/epo.nvim) | 2024-06-05 | `epo-nvim` | 
 | [github/cvigilv/esqueleto.nvim/esqueleto-nvim](https://github.com/cvigilv/esqueleto.nvim) | 2025-02-03 | `esqueleto-nvim` | 
 | [github/everblush/nvim/everblush](https://github.com/Everblush/nvim) | 2023-05-11 | `everblush` | 

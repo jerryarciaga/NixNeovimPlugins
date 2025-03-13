@@ -4612,6 +4612,23 @@
   };
 
   /*
+  Generated from: github/ovk/endec.nvim/endec-nvim
+  */
+  endec-nvim = buildVimPlugin {
+    pname = "endec-nvim";
+    version = "2025-03-02";
+    src = fetchurl {
+      url = "https://github.com/ovk/endec.nvim/archive/949ece728ecc0cacf3c6c81bbcda186fe3fef5cf.tar.gz";
+      sha256 = "1i18w2y55qmd89974bpj85dnkcv8pgpjksv7z5q358brscz6cmgj";
+    };
+    meta = with lib; {
+      description = "Neovim encoder/decoder plugin for Base64, Base64URL, URL (percent encoding)";
+      homepage = "https://github.com/ovk/endec.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: github/nvimdev/epo.nvim/epo-nvim
   */
   epo-nvim = buildVimPlugin {
