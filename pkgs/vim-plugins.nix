@@ -5,23 +5,6 @@
   fetchgit,
 }: {
   /*
-  Generated from: github/0styx0/abbreinder.nvim/abbreinder-nvim
-  */
-  abbreinder-nvim = buildVimPlugin {
-    pname = "abbreinder-nvim";
-    version = "2022-04-28";
-    src = fetchurl {
-      url = "https://github.com/0styx0/abbreinder.nvim/archive/5b2b5ff08a9ada42238d733aeebc6d3d96314d77.tar.gz";
-      sha256 = "0hiab78j61gdn9zx4458lqllm9bqnkmrinw8p2mp8whvyi2asd40";
-    };
-    meta = with lib; {
-      description = "Abbreviation reminder plugin for Neovim 0.5+";
-      homepage = "https://github.com/0styx0/abbreinder.nvim";
-      license = with licenses; [gpl3Only];
-    };
-  };
-
-  /*
   Generated from: github/0styx0/abbremand.nvim/abbremand-nvim
   */
   abbremand-nvim = buildVimPlugin {
@@ -867,6 +850,23 @@
     meta = with lib; {
       description = "Visual Studio Code inspired breadcrumbs plugin for the Neovim editor";
       homepage = "https://github.com/utilyre/barbecue.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: github/OXY2DEV/bars.nvim/bars-nvim
+  */
+  bars-nvim = buildVimPlugin {
+    pname = "bars-nvim";
+    version = "2025-03-15";
+    src = fetchurl {
+      url = "https://github.com/OXY2DEV/bars.nvim/archive/7f18b7640cb08d17e4e4a3c70d61891226a7fb98.tar.gz";
+      sha256 = "10hk8z14kqcisrdvl3fhpjy64x3c964lsa45ixk1s70xlxiyh60s";
+    };
+    meta = with lib; {
+      description = "A starting point/guide for creating custom statusline, statuscolumn, tabline & winbar for Neovim.";
+      homepage = "https://github.com/OXY2DEV/bars.nvim";
       license = with licenses; [mit];
     };
   };
@@ -5462,6 +5462,23 @@
   };
 
   /*
+  Generated from: github/thebigcicca/gardenal/gardenal
+  */
+  gardenal = buildVimPlugin {
+    pname = "gardenal";
+    version = "2024-10-31";
+    src = fetchurl {
+      url = "https://github.com/thebigcicca/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
+      sha256 = "1hjgbw7rbxvn8wnzn0j3x2k17nnyz530p94brs2wbh1n5k3bpi5w";
+    };
+    meta = with lib; {
+      description = "A plugin for vim and neovim that allows you to define keyboard shortcuts for switching between themes.";
+      homepage = "https://github.com/thebigcicca/gardenal";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
   Generated from: github/bgcicca/gardenal/gardenal
   */
   gardenal = buildVimPlugin {
@@ -6410,6 +6427,23 @@
       description = "Harpoon info for any statusline";
       homepage = "https://github.com/abeldekat/harpoonline";
       license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: github/kiyoon/haskell-scope-highlighting.nvim/haskell-scope-highlighting-nvim
+  */
+  haskell-scope-highlighting-nvim = buildVimPlugin {
+    pname = "haskell-scope-highlighting-nvim";
+    version = "2024-12-18";
+    src = fetchurl {
+      url = "https://github.com/kiyoon/haskell-scope-highlighting.nvim/archive/0b6238e1c5b2a53093e7d99a433ecdd4efff5db1.tar.gz";
+      sha256 = "0cji8jhgfwza8h9xh26yb815dich22b5373n543dab2rgn8l5703";
+    };
+    meta = with lib; {
+      description = "Haskell syntax highlighting that considers variable scopes. Inspired from \"Context Coloring\" by prof. Douglas Crockford.";
+      homepage = "https://github.com/kiyoon/haskell-scope-highlighting.nvim";
+      license = with licenses; [mit];
     };
   };
 
@@ -7804,6 +7838,23 @@
       description = "Neovim commenting plugin, written in lua.";
       homepage = "https://github.com/b3nj5m1n/kommentary";
       license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: github/kiyoon/Korean-IME.nvim/Korean-IME-nvim
+  */
+  Korean-IME-nvim = buildVimPlugin {
+    pname = "Korean-IME-nvim";
+    version = "2025-03-13";
+    src = fetchurl {
+      url = "https://github.com/kiyoon/Korean-IME.nvim/archive/5c03bc889f38781c0ce24d8bccf645a7a8942406.tar.gz";
+      sha256 = "057hv8ni6887mffi0q4v2d8a41mf20k0l2ymzl0gdirl0h27wwld";
+    };
+    meta = with lib; {
+      description = "한글/한자 입력기 for Neovim. OS-independent Korean input method that converts English inputs to Korean in-place.";
+      homepage = "https://github.com/kiyoon/Korean-IME.nvim";
+      license = with licenses; [];
     };
   };
 
@@ -18195,6 +18246,23 @@
   };
 
   /*
+  Generated from: github/kiyoon/telescope-insert-path.nvim/telescope-insert-path-nvim
+  */
+  telescope-insert-path-nvim = buildVimPlugin {
+    pname = "telescope-insert-path-nvim";
+    version = "2023-07-31";
+    src = fetchurl {
+      url = "https://github.com/kiyoon/telescope-insert-path.nvim/archive/9c7bbf8b5129550c6c5bf93fd5c077b6a00cc176.tar.gz";
+      sha256 = "0rsnb2mpx8pcqv3gcq2qpwz9n2wa7piijiyarf421yr13la10fn3";
+    };
+    meta = with lib; {
+      description = "Insert file path on the current buffer using Telescope.nvim";
+      homepage = "https://github.com/kiyoon/telescope-insert-path.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: github/polirritmico/telescope-lazy-plugins.nvim/telescope-lazy-plugins-nvim
   */
   telescope-lazy-plugins-nvim = buildVimPlugin {
@@ -18790,6 +18858,23 @@
   };
 
   /*
+  Generated from: github/kiyoon/tmux-send.nvim/tmux-send-nvim
+  */
+  tmux-send-nvim = buildVimPlugin {
+    pname = "tmux-send-nvim";
+    version = "2025-03-11";
+    src = fetchurl {
+      url = "https://github.com/kiyoon/tmux-send.nvim/archive/66b33257c05fcb8d97a45e187998eeceadcc57fd.tar.gz";
+      sha256 = "1f143mg05l10lvbknwbjvx80050npaxbqvybjyrzgb8jqlsdyhx7";
+    };
+    meta = with lib; {
+      description = "Copy and paste buffer content or file path in Nvim-Tree, Neo-Tree, Oil to another tmux pane in Neovim.";
+      homepage = "https://github.com/kiyoon/tmux-send.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: github/folke/todo-comments.nvim/todo-comments-nvim
   */
   todo-comments-nvim = buildVimPlugin {
@@ -19091,6 +19176,23 @@
     meta = with lib; {
       description = "";
       homepage = "https://github.com/atusy/treemonkey.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: github/kiyoon/treesitter-indent-object.nvim/treesitter-indent-object-nvim
+  */
+  treesitter-indent-object-nvim = buildVimPlugin {
+    pname = "treesitter-indent-object-nvim";
+    version = "2024-07-08";
+    src = fetchurl {
+      url = "https://github.com/kiyoon/treesitter-indent-object.nvim/archive/84feec844aa386554b6eeda2833143615346cf3e.tar.gz";
+      sha256 = "0ijbghhk30svvsww73mhjmg2cmdsa9dmi0y8jkq30zsn13rbksh3";
+    };
+    meta = with lib; {
+      description = "Context-aware indent textobject powered by Treesitter. `vai` to select current context.";
+      homepage = "https://github.com/kiyoon/treesitter-indent-object.nvim";
       license = with licenses; [mit];
     };
   };

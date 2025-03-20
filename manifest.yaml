@@ -1,8 +1,6 @@
 - owner: 00sapo
   repo: visual.nvim
 - owner: 0styx0
-  repo: abbreinder.nvim
-- owner: 0styx0
   repo: abbremand.nvim
 - owner: 0xJohnnyboy
   repo: scretch.nvim
@@ -1050,7 +1048,17 @@
 - owner: kiran94
   repo: s3edit.nvim
 - owner: kiyoon
+  repo: haskell-scope-highlighting.nvim
+- owner: kiyoon
   repo: jupynium.nvim
+- owner: kiyoon
+  repo: Korean-IME.nvim
+- owner: kiyoon
+  repo: telescope-insert-path.nvim
+- owner: kiyoon
+  repo: tmux-send.nvim
+- owner: kiyoon
+  repo: treesitter-indent-object.nvim
 - owner: kkharji
   repo: sqlite.lua
 - owner: klen
@@ -1744,6 +1752,8 @@
 - owner: oxfist
   repo: night-owl.nvim
 - owner: OXY2DEV
+  repo: bars.nvim
+- owner: OXY2DEV
   repo: foldtext.nvim
 - owner: OXY2DEV
   repo: helpview.nvim
@@ -2266,6 +2276,9 @@
   repo: space-nvim
 - owner: thaerkh
   repo: vim-workspace
+- owner: thebigcicca
+  repo: gardenal
+  commit: d8bc3d5aa51b559f745c222f4ab082f468df2c0c
 - owner: TheBlob42
   repo: drex.nvim
 - owner: TheBlob42
